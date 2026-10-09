@@ -28,7 +28,7 @@ const en: LocaleType = {
     Later: "Later",
     SaasTips: "Too Complex, Use Immediately Now",
     TopTips:
-      "🥳 NextChat AI launch promotion: Instantly unlock the latest models like OpenAI o1, GPT-4o, Claude-3.5!",
+      "🥳 NextChat AI launch promotion: Instantly unlock the latest models!",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} messages`,
@@ -107,6 +107,7 @@ const en: LocaleType = {
       copyLastMessage: "Copy Last Reply",
       copyLastCode: "Copy Last Code Block",
       showShortcutKey: "Show Shortcuts",
+      clearContext: "Clear Context",
     },
   },
   Export: {
@@ -114,7 +115,7 @@ const en: LocaleType = {
     Copy: "Copy All",
     Download: "Download",
     MessageFromYou: "Message From You",
-    MessageFromChatGPT: "Message From ChatGPT",
+    MessageFromChatGPT: "Message From AI Assistant",
     Share: "Share to ShareGPT",
     Format: {
       Title: "Export Format",
@@ -317,8 +318,7 @@ const en: LocaleType = {
         Title: "Use NextChat AI",
         Label: " (Most Cost-Effective Option)",
         SubTitle:
-          "Maintained by NextChat, zero setup needed, unlock OpenAI o1, GPT-4o," +
-          " Claude-3.5 and more",
+          "Maintained by NextChat, zero setup needed, unlock the latest models",
         ChatNow: "Start Now",
       },
       AccessCode: {
@@ -446,6 +446,17 @@ const en: LocaleType = {
           SubTitle: "Example: ",
         },
       },
+      DeepSeek: {
+        ApiKey: {
+          Title: "DeepSeek API Key",
+          SubTitle: "Use a custom DeepSeek API Key",
+          Placeholder: "DeepSeek API Key",
+        },
+        Endpoint: {
+          Title: "Endpoint Address",
+          SubTitle: "Example: ",
+        },
+      },
       XAI: {
         ApiKey: {
           Title: "XAI API Key",
@@ -462,6 +473,17 @@ const en: LocaleType = {
           Title: "ChatGLM API Key",
           SubTitle: "Use a custom ChatGLM API Key",
           Placeholder: "ChatGLM API Key",
+        },
+        Endpoint: {
+          Title: "Endpoint Address",
+          SubTitle: "Example: ",
+        },
+      },
+      SiliconFlow: {
+        ApiKey: {
+          Title: "SiliconFlow API Key",
+          SubTitle: "Use a custom SiliconFlow API Key",
+          Placeholder: "SiliconFlow API Key",
         },
         Endpoint: {
           Title: "Endpoint Address",
@@ -518,6 +540,17 @@ const en: LocaleType = {
         GoogleSafetySettings: {
           Title: "Google Safety Settings",
           SubTitle: "Select a safety filtering level",
+        },
+      },
+      AI302: {
+        ApiKey: {
+          Title: "302.AI API Key",
+          SubTitle: "Use a custom 302.AI API Key",
+          Placeholder: "302.AI API Key",
+        },
+        Endpoint: {
+          Title: "Endpoint Address",
+          SubTitle: "Example: ",
         },
       },
     },
@@ -634,6 +667,9 @@ const en: LocaleType = {
   },
   Discovery: {
     Name: "Discovery",
+  },
+  Mcp: {
+    Name: "MCP",
   },
   FineTuned: {
     Sysmessage: "You are an assistant that",
